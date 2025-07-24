@@ -186,7 +186,7 @@ main> section {
 .companies img{
   filter: grayscale(100%);
   
-  margin-left: 150px;
+  
 }
   
 
@@ -208,6 +208,7 @@ main> section {
 .companies img{
   justify-content: center;
   justify-items: center;
+  margin-left:120px;
 }
 .facts-container{
   justify-content: center;
@@ -227,7 +228,7 @@ width: 100%;
 #experience-badge{
   justify-content: center;
   align-items: center;
-  margin-left: 60px;
+  margin-left: 10px;
   margin-top: 100px;
 }
 
@@ -256,5 +257,14 @@ width: 100%;
 .companies img{
   max-width:100%;
   margin: 20px auto;
+}
+.facts-container, .companies{
+  grid-template-columns: repeat(2,1fr);
+  gap: 50px;
+  justify-content: center;
+
+}
+.facts-container{
+  margin-left: 120px;
 }
 }
